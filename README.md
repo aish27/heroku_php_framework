@@ -15,6 +15,7 @@ heroku login
 heroku create
 
 Execute the following steps to setup the heroku Postgres DB and add data into the DB:
+
 heroku addons:create heroku-postgresql:hobby-dev
 
 heroku psql
@@ -36,6 +37,7 @@ INSERT into employee values (6,'Bob’,3);
 INSERT into employee values (7,'Ann',5);
 
 Execute the following steps to push the code into heroku and deploy it:
+
 git add .
 
 git commit -m
